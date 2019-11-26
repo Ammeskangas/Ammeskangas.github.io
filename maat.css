@@ -1,0 +1,92 @@
+#header {
+    background-color: rgb(184, 100, 100);
+    border-style: solid;
+    border-radius: 1em;
+    padding: 5px 15px;
+}
+
+h1.header {
+    color: rgb(128, 0, 0);
+    font-size: 5em;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+p {
+    font-size: 2em;
+}
+
+#navigaattori {
+    width: 30%;
+    height: auto;
+    background-color: rgb(184, 100, 100);
+    border-width: 0,2em;
+    border-style: solid;
+    border-radius: 2em;
+    padding: 1em;
+    margin: 1em;
+}
+
+#peruscase, #lista, #kartta {
+    width: 30%;
+    height: auto;
+    background-color: rgb(184, 100, 100);
+    border-width: 0,2em;
+    border-style: solid;
+    border-radius: 2em;
+    padding: 1em;
+    margin: 2em;
+}
+
+#lista, #kartta {
+    width: 80%;
+    height: auto;
+    background-color: rgb(184, 100, 100);
+    border-width: 0,2em;
+    border-style: solid;
+    border-radius: 2em;
+    padding: 1em;
+    margin: 2em;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.vierekkäin {
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbutton {
+    display:inline-block;
+    padding: 1em 3em;
+    background-color: rgb(163, 148, 148);
+    margin: 0.5em;
+    border-color: black;
+    border-width: 0,2em;
+    border-style: solid;
+    border-radius: 3em;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbutton:hover, .navbutton:active {
+    background-color: white;
+}
+
+html { 
+    background: url(https://i2.nicepik.com/files/901/786/572/background-pattern-texture-structure.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }

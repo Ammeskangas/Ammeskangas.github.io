@@ -1,0 +1,22 @@
+body {
+    background: pink;
+}
+
+.jumbotron {
+    background: lightblue;
+}
+
+.personal {
+    width: 30%;
+    height: 50%;
+    background-color: lightblue;
+    border-width: 0,2em;
+    border-style: groove;
+    border-radius: 2em;
+    padding: 1em;
+    margin: 2em;
+}
+
+.boxes {
+    display: flex;
+}
